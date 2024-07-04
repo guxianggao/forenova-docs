@@ -1,16 +1,19 @@
-site_name: ForoNova Knowledge Base
+site_name: NovaMDR Documentation
+
 theme:
   name: material
+  features:
+    - navigation.tabs
 
   palette: 
     # Palette toggle for light mode
     - scheme: default
       toggle:
-        icon: material/brightness-7 
+        icon: material/weather-night
         name: Switch to dark mode
 
     # Palette toggle for dark mode
     - scheme: slate
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-sunny
         name: Switch to light mode
